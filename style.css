@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    height: 65px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+}
+
+#head div {
+    display: inline;
+}
+
+#welcome-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#time {
+    font-size: 1.2em;
+}
+
+fieldset {
+    width: 900px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 38px;
+    margin: 5px auto;
+}
+
+#nickname-space {
+    height: 70px;
+}
+
+legend {
+    margin-left: -20px;
+    font-weight: 600;
+}
+
+#your-nickname {
+    width: 40%;
+    height: 1.5em;
+    margin: 10px auto;
+    font-size: 1em;
+    padding-left: 1px;
+}
+
+#message-space {
+    height: 180px;
+    margin: 5px auto;
+}
+
+#your-message {
+    display: inline;
+    position: relative;
+    width: 75%;
+    height: 120px;
+    margin: 15px auto;
+    font-size: 1.3em;
+    padding-left: 2px;
+    top: 0px;
+    left: 0px;
+}
+
+#next-star {
+    position: relative;
+    top: -123px;
+}
+
+#submit-button {
+    position: relative;
+    width: 5em;
+    height: 1.8em;
+    top: -22px;
+    left: 11px;
+}
+
+#message-area {
+    padding-left: 0;
+    padding-bottom: 2px;
+}
+
+#message-area legend {
+    margin-left: 20px;
+}
+
+hr {
+    width: 90%;
+    height: 0;
+    border: .4px solid #ccc;
+    margin: 15px auto 15px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+li div {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 48px;
+    text-align: center;
+    margin-left: 30px;
+}
+li strong {
+    color: rgb(16, 204, 211);
+    font-size: 1.2em;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+li span {
+    color: rgb(102, 102, 102);
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+li p {
+    width: 80%;
+    margin-left: 105px;
+    word-wrap: break-word;
+    /*word-break: break-all;*/
+    margin-bottom: 25px;
+}

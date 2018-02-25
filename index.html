@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>留言板主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="head">
+        <div id="welcome-title">欢迎留言</div>
+        <div id="time"></div>
+    </div>
+    <fieldset id="nickname-space">
+        <legend>你的昵称</legend>
+        <input type="text" name="your-nickname" id="your-nickname" placeholder="昵称格式为2-15个字符">
+    </fieldset>
+    <fieldset id="message-space">
+        <legend>你的留言</legend>
+        <textarea id="your-message" placeholder="留言字数不得超过80字"></textarea>
+        <input type="button" id="submit-button" value="提交>>">
+    </fieldset>
+    <fieldset id="message-area">
+        <legend>已有 <span id="message-count"></span> 条留言</legend>
+        <hr>
+        <div>
+            <ul id="message-list">
+                <!--<li>
+                    <div>
+                        S
+                    </div>
+                    <strong>
+                        steph
+                    </strong>
+                    <span>
+                        2018年2月21日 下午10:07:11
+                    </span>
+                    <p>
+                        新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐新年快乐
+                    </p>
+                    <hr>
+                </li>-->
+            </ul>
+        </div>
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+
+</html>
